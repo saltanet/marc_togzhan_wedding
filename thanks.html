@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Marc & Togzhan Wedding</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owncarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/owncarousel/owl.carousel.min.js" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav
+      class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-block d-lg-none">
+        <h1 class="font-secondary text-white mb-n2">
+          Marc <span class="text-primary">&</span> Togzhan
+        </h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarCollapse"
+      >
+        <div class="navbar-nav ml-auto py-0"></div>
+        <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+          <h1 class="font-secondary text-white mb-n2">
+            Marc <span class="text-primary">&</span> Togzhan
+          </h1>
+        </a>
+        <div class="navbar-nav mr-auto py-0"></div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- RSVP Start -->
+    <div class="container-fluid py-5" id="rsvp">
+      <div class="container py-5">
+        <div class="section-title position-relative text-center">
+          <h6
+            class="text-uppercase text-primary mb-3"
+            style="letter-spacing: 3px"
+          >
+            RSVP
+          </h6>
+          <h1 class="font-secondary display-4">Thank you!</h1>
+          <h1 class="font-secondary display-4">We received your reply</h1>
+          <i class="far fa-heart text-dark"></i>
+        </div>
+      </div>
+    </div>
+    <!-- RSVP End -->
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-white py-5"
+      id="contact"
+      style="margin-top: 90px"
+    >
+      <div class="container text-center py-5">
+        <div class="section-title position-relative text-center">
+          <h6
+            class="text-uppercase text-primary mb-3"
+            style="letter-spacing: 3px"
+          >
+            <a href="https://saltanet.github.io/marc_togzhan_wedding/index.html"
+              >Back to Home Page
+            </a>
+          </h6>
+          <i class="far fa-heart text-white"></i>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="d-flex justify-content-center py-2">
+          <p class="text-white" href="#">muslimkhan.salta@gmail.com</p>
+          <span class="px-3">|</span>
+          <p class="text-white" href="#"></p>
+        </div>
+        <p class="m-0">
+          &copy; <a class="text-primary" href="#">GitHub</a>. Created by
+          <a class="text-primary" href="#">Saltanat Muslimkhanova</a>
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script>
+      var form = document.getElementById("form");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); //prevent to autosubmit
+
+        var username = document.getElementById("username").value;
+
+        console.log(username);
+
+        var useremail = document.getElementById("useremail").value;
+
+        console.log(useremail);
+
+        // var useremail = document.getElementById("num").value;
+
+        // console.log(num);
+
+        // var useremail = document.getElementById("attend").value;
+
+        // console.log(attend);
+
+        // var useremail = document.getElementById("message").value;
+
+        // console.log(message);
+      });
+    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
